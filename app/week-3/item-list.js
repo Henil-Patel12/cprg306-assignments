@@ -18,9 +18,9 @@ const ItemList = () => {
     ];
 
     return (
-        <div className="grid grid-cols-4 gap-4 p-4 bg-black">
+        <div className="grid grid-cols-4 gap-4 p-4 rounded-md" style={{  backgroundColor: 'hsl(0, 0%,5%)' }}>
             {items.map((item, index) => (
-                <div key={index} className="bg-gray-800 rounded-md p-4 text-white text-center mb-4">
+                <div key={index} className="bg-gray-800 rounded-md p-4 text-white text-center mb-4" >
                     <Item name={item.name} quantity={item.quantity} category={item.category}  />
                 </div>
             ))}
