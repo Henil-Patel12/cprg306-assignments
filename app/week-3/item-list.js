@@ -1,6 +1,7 @@
 import React from 'react';
 import Item from './item';
 
+
 const ItemList = () => {
     const items = [
         { name: "milk, 4 L 🥛", quantity: 1, category: "dairy"},
