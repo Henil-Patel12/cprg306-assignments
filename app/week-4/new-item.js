@@ -44,6 +44,7 @@ export default function NewItem ({ addItem }) {
             </select><br/>
 
             <button type="submit" onClick={e => handleSubmit(e)} className="text-white rounded bg-slate-600 p-1 mt-2 hover:bg-white hover:text-black">Submit</button>
-        </form>
-    )
+         </form>
+    );
 }
+
