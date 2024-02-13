@@ -16,10 +16,10 @@ export default function List () {
             <div>
                 {items.map((item, index) => (
                     <div key={index} className="bg-gray-800 rounded-md p-4 text-white text-center mb-4" style={{ borderRadius: '10px', padding: '10px', margin: '10px', boxShadow: '0 50px 50px 0 rgba(0, 0, 0, 0.2)' }}>
-    <p>Name: {item.name}</p>
-    <p>Quantity: {item.quantity}</p>
-    <p>Category: {item.category}</p>
-</div>
+                        <p>Name: {item.name}</p>
+                        <p>Quantity: {item.quantity}</p>
+                        <p>Category: {item.category}</p>
+                    </div>
                 ))}
             </div>
         </main>
