@@ -1,8 +1,7 @@
-'use client'
-
+'use client';
 import { useState } from 'react';
 
-export default function NewItem () {
+export default function NewItem ({ addItem }) { 
     const [name, setName] = useState("");
     const [quantity, setQuantity] = useState(1);
     const [category, setCategory] = useState("produce");
@@ -16,10 +15,11 @@ export default function NewItem () {
 
         alert(`Name: ${name}\nQuantity: ${quantity}\nCategory: ${category}`);
 
+        addItem(newItem); 
+
         setName("");
         setQuantity(1);
         setCategory("produce");
-
     }
 
     return (
