@@ -43,8 +43,8 @@ export default function NewItem ({ addItem }) {
                 <option value="other">Other</option>
             </select><br/>
 
-            <button type="submit" onClick={e => handleSubmit(e)} className="text-white rounded bg-slate-600 p-1 mt-2 hover:bg-white hover:text-black">Submit</button>
-         </form>
+            <button type="submit" onClick={e => handleSubmit(e)} className="text-white rounded bg-slate-600 p-1 mt-2 hover:bg-white hover:text-black">Submit</button>     
+        </form>
     );
 }
 
