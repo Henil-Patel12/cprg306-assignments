@@ -1,11 +1,8 @@
-import React from 'react';
-
-const Item = ({ name, quantity, category }) => {
+export default function Item( {id ,name, quantity, category} ) {
   return (
-    <li>
-      {name}, {quantity}, {category}
-    </li>
+    <div className="mb-4 p-4 border bg-cyan-900  max-w-md">
+    <p className="text-lg font-semibold divide-y divide-slate-300">{name}</p>
+    <p className="text-slate-300">Buy {quantity} in {category}</p>
+  </div>
   );
 };
-
-export default Item;
