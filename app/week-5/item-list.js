@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from 'react';
@@ -46,22 +45,22 @@ export default function ItemList() {
       });
 
   return (
-    <main className="p-4">
-      <div className="mb-4">
+    <main className="p-8">
+      <div className="mb-8">
         <button
-          className={"bg-blue-500 text-white px-4 py-2 rounded active:bg-blue-950 "}
+          className={"bg-green-500 text-white px-4 py-2 rounded active:bg-green-700 "}
           onClick={handleSortByName}
         >
           Sort by Name
         </button>
         <button
-          className={"bg-blue-500 text-white px-4 py-2 rounded ml-2 active:bg-blue-950 "}
+          className={"bg-green-500 text-white px-4 py-2 rounded ml-4 active:bg-green-700 "}
           onClick={handleSortByCategory}
         >
           Sort by Category
         </button>
         <button
-          className={"bg-blue-500 text-white px-4 py-2 rounded ml-2 active:bg-blue-950 "}
+          className={"bg-green-500 text-white px-4 py-2 rounded ml-4 active:bg-green-700 "}
           onClick={handleGroupByCategory}
         >
           Group by Category
