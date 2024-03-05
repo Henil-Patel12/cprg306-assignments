@@ -26,10 +26,10 @@ export default function Week5Page() {
           <Week5ItemList items={items} />
         </div>
         <div className="w-1/5 bg-gray-900 text-white" style={{ borderRadius: '1vh', padding: '1vh', boxShadow: '0 50px 50px 0 rgba(0, 0, 0, 0.2)', display: 'flex', flexDirection: 'column', maxHeight: '30.5vh',  }}>          
-          <NewItem onAddItem={handleAddItem}/>
+          <NewItem onAddItem={handleAddItem} onRemoveItem={handleRemoveItem} />
         </div>
         <div className="w-1/5 bg-gray-900 text-white" style={{ borderRadius: '1vh', padding: '1vh', boxShadow: '0 50px 50px 0 rgba(0, 0, 0, 0.2)', display: 'flex', flexDirection: 'column', maxHeight: '30.5vh',  }}>          
-          <NewItem  onRemoveItem={handleRemoveItem} />
+          <NewItem onAddItem={handleAddItem} onRemoveItem={handleRemoveItem} />
         </div>
       </div>
     </main>
