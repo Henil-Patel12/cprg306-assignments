@@ -1,4 +1,3 @@
-// page.js
 "use client";
 import React, { useState } from 'react';
 import Week5ItemList from './item-list';
