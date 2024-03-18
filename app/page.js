@@ -21,6 +21,9 @@ export default function Page() {
         <li className="text-orange-500 hover:text-purple-400 hover:underline mb-3" style={{ backgroundColor: 'hsl(0, 0%, 4%)', borderRadius: '10px', padding: '10px', boxShadow: '0 50px 50px 0 rgba(0, 0, 0, 0.2)' }}>
           <a href="/week-7">Assignment Week-7</a>
         </li>
+        <li className="text-orange-500 hover:text-purple-400 hover:underline mb-3" style={{ backgroundColor: 'hsl(0, 0%, 4%)', borderRadius: '10px', padding: '10px', boxShadow: '0 50px 50px 0 rgba(0, 0, 0, 0.2)' }}>
+          <a href="/week-8">Assignment Week-8</a>
+        </li>
       </div>
     </main>
   );
