@@ -23,9 +23,9 @@ const Page = () => {
             Logout
           </button>
           <br />
-          <Link href="shopping-list" className="text-indigo-600 hover:text-indigo-500">
-            Visit Your Shopping List
-          </Link>
+            <Link href="/week-8/shopping-list" className="text-indigo-600 hover:text-indigo-500"> 
+              Visit Your Shopping List
+            </Link>
         </div>
       ) : (
         <button 
